@@ -1,0 +1,38 @@
+export const dashboard = {
+    layout:[
+        {
+            type:"div",
+            attr:{id:"main_div"},
+            classes:["width_main","display_flex","flex_col","hidden_scroll"],
+            content:[
+                {
+                    type:"h1",
+                    classes:["text_align_centre"],
+                    text:"PR&MS"
+                },
+                {
+                    type:"h2",
+                    classes:["text_align_centre","margin_top"],
+                    text:""
+                },
+                {
+                    type:"h3",
+                    attr:{id:"subtitle"},
+                    classes:["text_align_centre","margin_top"],
+                    text:"hide"
+                },
+                {
+                    type:"hr",
+                    classes:["margin_top","width_full","height_0_2"]
+                },
+                {
+                    type:"div",
+                    attr:{id:"content"},
+                    content:[]
+                }
+            ]
+        }            
+    ],
+    buttons:[]
+}
+

@@ -1,0 +1,35 @@
+.button_image{
+    width:2.5rem;
+    height:2.5rem;
+    background-size: 2.5rem 2.5rem;
+}
+
+.image_add{background-image:url(../icons/add.png);}
+
+.image_blue_inhaler{background-image:url(../icons/blue_inhaler.png);}
+
+.image_brown_inhaler{background-image:url(../icons/brown_inhaler.png);}
+
+.image_calender{background-image:url(../icons/calender.png);}
+
+.image_chart{background-image:url(../icons/chart.png);}
+
+.image_check{background-image:url(../icons/check.png);}
+
+.image_clear{background-image:url(../icons/clear.png);}
+
+.image_clock{background-image:url(../icons/clock.png);}
+
+.image_enter{background-image:url(../icons/enter.png);}
+
+.image_exit{background-image:url(../icons/exit.png);}
+
+.image_peak_flow{background-image:url(../icons/peak_flow.png);}
+
+.image_phone{background-image:url(../icons/phone.png);}
+
+.image_sub{background-image:url(../icons/sub.png);}
+
+.image_update{background-image:url(../icons/update.png);}
+
+.image_user{background-image:url(../icons/user.png);}

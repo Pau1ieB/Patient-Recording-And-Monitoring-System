@@ -1,0 +1,145 @@
+html{
+    font:18px Georgia;
+    overflow-y: scroll;
+    scrollbar-width:none;
+}
+
+body{
+    margin:0px;
+    padding:0px;
+    background:yellow;
+    display:flex;
+    justify-content: center;
+}
+
+::-webkit-scrollbar {width: 0px;}
+
+h1,h2,h3,h4{margin:0px}
+
+.button{
+    display:flex;
+    align-items:center;
+    width:100%;
+    border:1px solid;    
+}
+
+.results_date{grid-area: 1 / 1 / 2 / -1;}
+
+.results_icon{grid-area: 2 / 1 / 3 / 2;}
+
+.results_time{grid-area: 2 / 2 / 3 / 3;}
+
+.results_data{grid-area: 2 / 3 / 3 / -1;}
+
+.results_grid{
+    display:grid;
+    width:100%;
+    grid-template-columns:0.3fr 0.3fr 1fr;
+}
+
+.place_self{place-self: center;}
+
+.background_red{background:red;}
+
+.background_blue{background:blue;}
+
+.background_green{background:green;}
+
+.background_white{background:white;}
+
+.background_orange{background:orange;}
+
+.blue{color:blue;}
+
+.border_1px{border:1px solid}
+
+.border_3px{border:3px solid}
+
+.display_inline{display:inline-block;}
+
+.display_flex{display:flex}
+
+.flex_col{flex-direction: column;}
+
+.justify_content_center{justify-content: center;}
+
+.align_items_centre{align-items: center;}
+
+.font_bold{font-weight: bold;}
+
+.font_inherit{font:inherit}
+
+.font_main_title{font-size: 22px;}
+
+.height_0_2{height:0.2rem;}
+
+.height_2_5{height:2.5rem}
+
+.height_8rem{height:8rem;}
+
+.hidden{display:none;}
+
+.margin_left_half{margin-left:0.5rem;}
+
+.margin_left{margin-left:1rem;}
+
+.margin_left_double{margin-left:2rem;}
+
+.margin_top{margin-top:1rem}
+
+.margin_top_half{margin-top:0.5rem}
+
+.margin_top_quarter{margin-top:0.25rem}
+
+.margin_top_double{margin-top:2rem}
+
+.mouse{}
+
+.mouse:hover{background:rgb(117,175,255)}
+
+.mouse:active{background:rgb(0,97,227);}
+
+.opacity_0{opacity:0;}
+
+.pad_h_half{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+
+.pad_v_half{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.position_absolute{position:absolute;}
+
+.position_relative{position:relative;}
+
+.red{color:red;}
+
+.resize_none{resize:none;}
+
+.right{right:0px;}
+
+.text_align_centre{text-align:center}
+
+.text_align_left{text-align:left}
+
+.text_align_right{text-align:right}
+
+.top{top:0px;}
+
+.width_full{width:100%;}
+
+.width_main{width:15rem}
+
+.width_sub{width:13rem;}
+
+.width_sub_2{width:9rem;}
+
+.width_100{width:100px;}
+
+@media screen and (max-width:480px){
+    html{font-size:14px;}
+}
